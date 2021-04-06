@@ -1,0 +1,39 @@
+.features {
+    padding: 75px 125px 50px 125px;
+}
+
+.features__intro {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.features__intro--subtitle, .features__intro--title {
+    font-size: 3.2rem;
+}
+
+.features__card{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.features__intro--description {
+    font-size: 1.6rem;
+}
+
+
+.supervisor, .calculator {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.team-builder {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.karma {
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
